@@ -3,7 +3,7 @@ package de.tum.in.ase;
  *This abstract class will be the parent class for all the specific types of courses you will implement and use
  * in this implementation of a list.
  */
-public class Course {
+public abstract class Course {
 
     /*To make your life a little easier, we already provided you with some stuff in this class.
     So do yourself a favour and do not touch any of the given methods/attributes in case you're not explicitly told so.
