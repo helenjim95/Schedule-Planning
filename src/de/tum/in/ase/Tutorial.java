@@ -30,6 +30,14 @@ public class Tutorial extends Course{
         return roomId;
     }
 
+    public void setTutor(String tutor) {
+        this.tutor = tutor;
+    }
+
+    public void setRoomId(int roomId) {
+        this.roomId = roomId;
+    }
+
     /**
      *This toString() method will use the super toString() from the course class in order to reflect all the important
      * information from the parent as well as the child class.
