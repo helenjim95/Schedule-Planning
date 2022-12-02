@@ -14,8 +14,37 @@ public class Course {
     private int durationInMinutes;
     private String name;
 
-    //TODO: implement the Constructor for this abstract class
-    
+    //implement the Constructor for this abstract class
+
+    public Course(int courseId, int durationInMinutes, String name) {
+        this.courseId = courseId;
+        this.durationInMinutes = durationInMinutes;
+        this.name = name;
+    }
+
+    public int getCourseId() {
+        return courseId;
+    }
+
+    public void setCourseId(int courseId) {
+        this.courseId = courseId;
+    }
+
+    public int getDurationInMinutes() {
+        return durationInMinutes;
+    }
+
+    public void setDurationInMinutes(int durationInMinutes) {
+        this.durationInMinutes = durationInMinutes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     //even the toString() method is provided
     /**
